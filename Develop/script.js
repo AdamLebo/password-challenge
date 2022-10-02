@@ -12,13 +12,16 @@ function generatePassword() {
     window.alert("Password does not meet length criteria")
     return
   }
-
   var useNumbers = window.confirm("Would you like your password to contain numbers?")
   var useLower = window.confirm("Would you like your password to contain lowercase charatcers?")
   var useUpper = window.confirm("Would you like your password to contain uppercase characters?")
   var useSpecial = window.confirm("Would you like your password to contain special characters?")
 
-  
+  var numbers = ("1", "2", "3", "4", "5", "6", "7", "8", "9", "0")
+  var special = ("!", "@", "#", "$", "%", "^", "&", "*", "?")
+  var lowerlist = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
+  var upperlist = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
+
 }
 
 // Write password to the #password input
