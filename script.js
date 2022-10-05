@@ -58,6 +58,7 @@ function generatePassword() {
     generatePassword += randomKey
   }
 
+  return generatePassword
 }
 
 // Write password to the #password input
